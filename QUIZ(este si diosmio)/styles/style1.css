@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&family=Oswald:wght@200..700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+}
+
+.container {
+    text-align: center;
+    border-radius: 40px;
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    padding: 80px;
+    background: linear-gradient(to bottom right, #1f2847, 30%, #023463);
+    box-shadow: 1px 1px 20px #023463;
+    border: solid #5B6DCD 10px;
+}
+
+
+.heading {
+    font-size: 50px;
+    font-weight: 10;
+    text-align: center;
+    color: #fff;
+    font-family: "Lilita One", sans-serif;
+    text-shadow: 1px 1px 20px #023463;
+}
+
+#startButton {
+    width: 100%;
+    height: 60px;
+    background: linear-gradient(to bottom right,
+            hsl(209, 80%, 57%),
+            60%,
+            #73a3eb);
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 1px 1px 20px #023463;
+    transition: all 3s linear;
+}
+
+#startButton:hover {
+    background: linear-gradient(to bottom right, #0a6bc5, 60%, #0182fa);
+}
